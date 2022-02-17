@@ -1,7 +1,10 @@
-const open = document.getElementById('open')
-const close = document.getElementById('close')
-const container = document.querySelector('.container')
+const nav = document.querySelector('.nav')
+window.addEventListener('scroll', fixNav)
 
-open.addEventListener('click', () => container.classList.add('show-nav'))
-
-close.addEventListener('click', () => container.classList.remove('show-nav'))
+function fixNav() {
+    if(window.scrollY > nav.offsetHeight + 150) {
+        nav.classList.add('active')
+    } else {
+        nav.classList.remove('active')
+    }
+}
