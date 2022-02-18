@@ -73,10 +73,10 @@ body {
   /*background-image: url('https://images.pexels.com/photos/389819/pexels-photo-389819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
   /*background-image: url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
   /*background-image: url('https://images.pexels.com/photos/4048093/pexels-photo-4048093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); I am groooooooot*/
-  /*background-image: url('https://images.pexels.com/photos/4499765/pexels-photo-4499765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');   might change to this soon*/
+  background-image: url('https://images.pexels.com/photos/4499765/pexels-photo-4499765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');   
   /*background-image: url('https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
   /*background-image: url('https://images.pexels.com/photos/463684/pexels-photo-463684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  background-image: url('https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  /* background-image: url('https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); this looks like an apple design */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -234,6 +234,80 @@ body {
   font-weight: 300;
   border: 0;
   cursor: pointer;
+}
+.contact-info {
+  width: 350px;
+  background: #f9f9f9;
+  padding: 60px 40px 20px;
+}
+
+.contact-info .info-box {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 40px;
+}
+
+.contact-info .info-box .contact-icon {
+  width: 20px;
+  margin-right: 40px;
+}
+
+.contact-info .info-box .details h4 {
+  color: var(--secondary-color);
+}
+
+.contact-info .info-box .details p,
+.contact-info .info-box .details a {
+  color: #111;
+}
+
+@media (max-width: 1068px) {
+  .home-img {
+    display: none;
+  }
+
+  .logo {
+    top: 10px;
+    left: 40px;
+    font-size: 1.5rem;
+  }
+
+  section {
+    padding: 100px 40px;
+  }
+
+  .navigation ul li a {
+    font-size: 2rem;
+  }
+
+  .services {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact {
+    flex-direction: column;
+  }
+
+  .contact-form {
+    width: 100%;
+    padding: 30px 30px 20px;
+  }
+
+  .contact-form .row {
+    flex-direction: column;
+  }
+
+  .contact-form .input50,
+  .contact-form .input100 {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-top: 20px;
+    padding: 30px 30px 20px;
+  }
 }
 /* .social-bar {
   position: absolute;
