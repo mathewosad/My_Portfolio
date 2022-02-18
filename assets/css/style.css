@@ -326,11 +326,18 @@ body {
 } */
 
 .footer {
-  position: absolute;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: rgb(0, 0, 0);
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   text-align: center;
+}
+
+#links {
+  font-size: 30px;
+}
+#links :hover {
+  color: #c0392b;
 }
