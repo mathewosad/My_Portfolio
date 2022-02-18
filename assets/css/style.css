@@ -253,12 +253,12 @@ body {
 }
 
 .contact-info .info-box .details h4 {
-  color: var(--secondary-color);
+  color: rgb(0, 0, 0);
 }
 
 .contact-info .info-box .details p,
 .contact-info .info-box .details a {
-  color: #111;
+  color: rgb(0, 0, 0);
 }
 
 @media (max-width: 1068px) {
@@ -325,14 +325,12 @@ body {
   transform: scale(0.5);
 } */
 
-/* footer{
-  padding: 20px;
-  margin-top: 20px;
-  margin-bottom: 0px;
-  color: #ffffff;
-  background-color: #000000;
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
   text-align: center;
-} */
-/* footer p{
-  margin-right: 10%;
-} */
+}
