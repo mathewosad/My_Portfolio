@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
@@ -23,6 +27,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
+  z-index: 999;
   transition: all 0.3s ease-in-out;
 }
 
@@ -169,7 +174,14 @@ body {
   border: 1px solid #fff;
   padding: 5px 15px;
 }
-
+/* Project page */
+.projects {
+  position: relative;
+  width: 100%;
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
 /* CONTACT page */
 .contact {
   position: relative;
@@ -309,21 +321,7 @@ body {
     padding: 30px 30px 20px;
   }
 }
-/* .social-bar {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 60px;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.social-bar a {
-  display: inline;
-  transform: scale(0.5);
-} */
 
 .footer {
   position: fixed;
