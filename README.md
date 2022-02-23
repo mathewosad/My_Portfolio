@@ -26,6 +26,13 @@ Update every time I learn/achieve/complete  something new and exciting
 <br>
 <br>
 
+The URL of the functional, deployed application.( https://mathewosad.github.io/My_Portfolio/)
+
+The URL of the GitHub repository. (https://github.com/mathewosad/My_Portfolio)
+
+Screenshot
+![](./assets/images/portfolio.JPG)
+
 ### Let's Connect!
 
 LinkedIn: <a href="https://www.linkedin.com/in/mathew-osadolor-848b33177/" target="_blank">Mathew Osad</a> | Website: <a href="https://github.com/mathewosad/" target="_blank">Mathew Osad | Portfolio</a> | Email: <a href="mailto:matthewosad@yahoo.com" target="_blank">matthewosad@yahoo.com</a>
