@@ -90,11 +90,13 @@ body {
   /*background-image: url('https://images.pexels.com/photos/6446685/pexels-photo-6446685.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
   /*background-image: url('https://images.pexels.com/photos/389819/pexels-photo-389819.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/
   /*background-image: url('https://images.pexels.com/photos/1714208/pexels-photo-1714208.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  /*background-image: url('https://images.pexels.com/photos/4048093/pexels-photo-4048093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); I am groooooooot*/
-  background-image: url('https://images.pexels.com/photos/4499765/pexels-photo-4499765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');   
-  /*background-image: url('https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+  /* background-image: url('https://images.pexels.com/photos/4048093/pexels-photo-4048093.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
+   /* I am groooooooot */
+  /* background-image: url('https://images.pexels.com/photos/4499765/pexels-photo-4499765.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');    */
+  /* background-image: url('https://images.pexels.com/photos/196658/pexels-photo-196658.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
   /*background-image: url('https://images.pexels.com/photos/463684/pexels-photo-463684.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); */
-  /* background-image: url('https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); this looks like an apple design */
+  background-image: url('https://images.pexels.com/photos/2569997/pexels-photo-2569997.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+  /* this looks like an apple design */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
